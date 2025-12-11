@@ -1,3 +1,5 @@
+# All experiments were run using Python 3.10 and the libraries listed here. The notebook is fully self-contained and can be executed in a Google Colab GPU environment.
+
 # Core ML and Transformers
 torch>=2.0.0
 transformers>=4.39.0
