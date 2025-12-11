@@ -135,3 +135,25 @@ These are the metrics that will be computed for each encoder:
 * Better retrieval = Higher downstream RAG answer quality
 * RAG model may outperform OpenAI baseline on domain-specific tasks
 
+# Project Folder Structure
+.
+
+├── GenAI_FINAL_RECENT-5.ipynb
+
+├── customgpt_run.csv
+
+├── openai_run.csv
+
+├── /content/gemma3_lora_synthetic/
+
+├── /content/gemma3_lora_base/
+
+├── /content/gemma3_lora_both/
+
+└── README.md
+
+# How to Run Everything
+
+1. Hit "run all"
+2. There should be a point in Part 2 where it stops to ask for the HuggingFace token to access Gemma3
+3. You need to make sure you have the two benchmark CSVs in your folder structure (for Part 3)
