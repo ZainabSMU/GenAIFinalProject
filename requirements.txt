@@ -1,0 +1,33 @@
+# Core ML and Transformers
+torch>=2.0.0
+transformers>=4.39.0
+accelerate>=0.26.0
+datasets>=2.16.0
+sentencepiece>=0.1.99
+
+# LoRA / PEFT
+peft>=0.10.0
+
+# Vector Search
+faiss-cpu>=1.7.4
+
+# Evaluation Metrics
+evaluate>=0.4.1
+bert-score>=0.7.2
+rouge-score>=0.1.2
+
+# Web Scraping
+beautifulsoup4>=4.12.0
+lxml>=4.9.3
+requests>=2.31.0
+
+# Utility / Data
+pandas>=2.1.0
+numpy>=1.26.0
+
+# Generation support and 8-bit quantization
+bitsandbytes>=0.43.0
+
+# Optional but recommended
+tqdm>=4.66.0
+scikit-learn>=1.3.0
